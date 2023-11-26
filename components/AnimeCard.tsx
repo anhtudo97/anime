@@ -49,6 +49,7 @@ function AnimeCard({ anime }: Prop) {
                             width={20}
                             height={20}
                             className="object-contain"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                         <p className="text-base text-white font-bold">
                             {anime.episodes || anime.episodes_aired}
@@ -61,6 +62,7 @@ function AnimeCard({ anime }: Prop) {
                             width={18}
                             height={18}
                             className="object-contain"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                         />
                         <p className="text-base font-bold text-[#FFAD49]">{anime.score}</p>
                     </div>
