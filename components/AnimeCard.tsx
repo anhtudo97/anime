@@ -1,3 +1,4 @@
+import { BASE_URL } from "@/lib/constants";
 import Image from "next/image";
 
 export interface AnimeProp {
@@ -18,11 +19,12 @@ interface Prop {
 }
 
 function AnimeCard({ anime }: Prop) {
+    console.log(`${BASE_URL}${anime.image.original}`);
     return (
         <div className="max-w-sm rounded relative w-full">
             <div className="relative w-full h-[37vh]">
                 <Image
-                    src={anime.image.original}
+                    src={`${BASE_URL}${anime.image.original}`}
                     alt={anime.name}
                     fill
                     className="rounded-xl"
