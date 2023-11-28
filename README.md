@@ -1,4 +1,6 @@
-# Build Modern Next 14 Server Side App with Server Actions, Infinite Scroll & Framer Motion Animations
+# Build Modern Next 14 Server Side App with Server Components, Infinite Scroll & Framer Motion Animations
+
+React Server Components allow you to write UI that can be rendered and optionally cached on the server. In Next.js, the rendering work is further split by route segments to enable streaming and partial rendering
 
 ## Getting Started
 
@@ -13,6 +15,4 @@ pnpm dev
 # or
 bun dev
 ```
-
-![Anime Website](https://i.ibb.co/MG1nbqt/YT-Thumbnails-2.png)
 
